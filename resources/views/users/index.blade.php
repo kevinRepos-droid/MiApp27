@@ -20,10 +20,8 @@
                             <td>{{ $usuario->name }}</td>
                             <td>{{ $usuario->email }}</td>
                             <td>
-                                <button class="btn btn-secondary"> 
-                                    <i class="fa fa-trash"></i> 
-                                </button>
-                                |
+                         
+                                
                                 <form 
                                     action="{{url('/users/'.$usuario->id)}}"
                                     method="POST"
@@ -36,8 +34,10 @@
                                         onclick="return confirm('¿Estas seguro?')"
                                         value="delete"
                                         class="btn btn-danger"
-                                    >
+                                    >Borrar
                                     </button>
+
+    
                                 </form>
                             </td>
                         </tr>
