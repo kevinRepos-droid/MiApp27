@@ -9,7 +9,7 @@
                         <td>ID</td>
                         <td>Nombre</td>
                         <td>Email</td>
-                        <td>Acciones</td>
+                        <td>Acción</td>
                     </tr>
                 </thead>
                 <tbody>
