@@ -3,7 +3,7 @@
 
     <div class="container">
         <div class="row">
-            <table class="table col-12">
+            <table class="table table-dark">
                 <thead>
                     <tr>
                         <td>ID</td>
